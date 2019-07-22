@@ -32,10 +32,10 @@
             "ref": "5e476e8edf3fa8e7f045ad034f89bb464424f5c1"
         },
         "files": [
-            "./config/packages/doctrine.yaml",
-            "./config/packages/prod/doctrine.yaml",
-            "./src/Entity/.gitignore",
-            "./src/Repository/.gitignore"
+            "config/packages/doctrine.yaml",
+            "config/packages/prod/doctrine.yaml",
+            "src/Entity/.gitignore",
+            "src/Repository/.gitignore"
         ]
     },
     "doctrine/doctrine-cache-bundle": {
@@ -50,8 +50,8 @@
             "ref": "c1431086fec31f17fbcfe6d6d7e92059458facc1"
         },
         "files": [
-            "./config/packages/doctrine_migrations.yaml",
-            "./src/Migrations/.gitignore"
+            "config/packages/doctrine_migrations.yaml",
+            "src/Migrations/.gitignore"
         ]
     },
     "doctrine/event-manager": {
@@ -87,7 +87,7 @@
             "ref": "70062abc2cd58794d2a90274502f81b55cd9951b"
         },
         "files": [
-            "./config/packages/dev/easy_log_handler.yaml"
+            "config/packages/dev/easy_log_handler.yaml"
         ]
     },
     "egulias/email-validator": {
@@ -141,7 +141,7 @@
             "ref": "fb7e19da7f013d0d422fa9bce16f5c510e27609b"
         },
         "files": [
-            "./config/packages/sensio_framework_extra.yaml"
+            "config/packages/sensio_framework_extra.yaml"
         ]
     },
     "swiftmailer/swiftmailer": {
@@ -171,8 +171,8 @@
             "ref": "482d233eb8de91ebd042992077bbd5838858890c"
         },
         "files": [
-            "./bin/console",
-            "./config/bootstrap.php"
+            "bin/console",
+            "config/bootstrap.php"
         ]
     },
     "symfony/css-selector": {
@@ -190,7 +190,7 @@
             "ref": "f8863cbad2f2e58c4b65fa1eac892ab189971bea"
         },
         "files": [
-            "./config/packages/dev/debug.yaml"
+            "config/packages/dev/debug.yaml"
         ]
     },
     "symfony/debug-pack": {
@@ -232,7 +232,7 @@
             "ref": "dc3fc2e0334a4137c47cfd5a3ececc601fa61a0b"
         },
         "files": [
-            "./.env"
+            ".env"
         ]
     },
     "symfony/form": {
@@ -247,14 +247,14 @@
             "ref": "0dfae0b1cd8349ae47659b35602f772b4a7e2280"
         },
         "files": [
-            "./config/bootstrap.php",
-            "./config/packages/cache.yaml",
-            "./config/packages/framework.yaml",
-            "./config/packages/test/framework.yaml",
-            "./config/services.yaml",
-            "./public/index.php",
-            "./src/Controller/.gitignore",
-            "./src/Kernel.php"
+            "config/bootstrap.php",
+            "config/packages/cache.yaml",
+            "config/packages/framework.yaml",
+            "config/packages/test/framework.yaml",
+            "config/services.yaml",
+            "public/index.php",
+            "src/Controller/.gitignore",
+            "src/Kernel.php"
         ]
     },
     "symfony/http-client": {
@@ -299,9 +299,9 @@
             "ref": "6240c6d43e8237a32452f057f81816820fd56ab6"
         },
         "files": [
-            "./config/packages/dev/monolog.yaml",
-            "./config/packages/prod/monolog.yaml",
-            "./config/packages/test/monolog.yaml"
+            "config/packages/dev/monolog.yaml",
+            "config/packages/prod/monolog.yaml",
+            "config/packages/test/monolog.yaml"
         ]
     },
     "symfony/options-resolver": {
@@ -319,11 +319,11 @@
             "ref": "b0582341f1df39aaf3a9a866cdbe49937da35984"
         },
         "files": [
-            "./.env.test",
-            "./bin/phpunit",
-            "./config/bootstrap.php",
-            "./phpunit.xml.dist",
-            "./tests/.gitignore"
+            ".env.test",
+            "bin/phpunit",
+            "config/bootstrap.php",
+            "phpunit.xml.dist",
+            "tests/.gitignore"
         ]
     },
     "symfony/polyfill-intl-icu": {
@@ -362,10 +362,10 @@
             "ref": "5374e24d508ba8fd6ba9eb15170255fdb778316a"
         },
         "files": [
-            "./config/packages/dev/routing.yaml",
-            "./config/packages/routing.yaml",
-            "./config/packages/test/routing.yaml",
-            "./config/routes.yaml"
+            "config/packages/dev/routing.yaml",
+            "config/packages/routing.yaml",
+            "config/packages/test/routing.yaml",
+            "config/routes.yaml"
         ]
     },
     "symfony/security-bundle": {
@@ -377,7 +377,7 @@
             "ref": "9a2034eca6d83d9cda632014e06995b8d9d9fd09"
         },
         "files": [
-            "./config/packages/security.yaml"
+            "config/packages/security.yaml"
         ]
     },
     "symfony/security-core": {
@@ -413,9 +413,9 @@
             "ref": "429afc6c6778a1fdddb52a4f708cd94ff2c9960f"
         },
         "files": [
-            "./config/packages/dev/swiftmailer.yaml",
-            "./config/packages/swiftmailer.yaml",
-            "./config/packages/test/swiftmailer.yaml"
+            "config/packages/dev/swiftmailer.yaml",
+            "config/packages/swiftmailer.yaml",
+            "config/packages/test/swiftmailer.yaml"
         ]
     },
     "symfony/test-pack": {
@@ -430,8 +430,8 @@
             "ref": "2ad9d2545bce8ca1a863e50e92141f0b9d87ffcd"
         },
         "files": [
-            "./config/packages/translation.yaml",
-            "./translations/.gitignore"
+            "config/packages/translation.yaml",
+            "translations/.gitignore"
         ]
     },
     "symfony/translation-contracts": {
@@ -449,9 +449,9 @@
             "ref": "369b5b29dc52b2c190002825ae7ec24ab6f962dd"
         },
         "files": [
-            "./config/packages/twig.yaml",
-            "./config/routes/dev/twig.yaml",
-            "./templates/base.html.twig"
+            "config/packages/twig.yaml",
+            "config/routes/dev/twig.yaml",
+            "templates/base.html.twig"
         ]
     },
     "symfony/validator": {
@@ -463,8 +463,8 @@
             "ref": "d902da3e4952f18d3bf05aab29512eb61cabd869"
         },
         "files": [
-            "./config/packages/test/validator.yaml",
-            "./config/packages/validator.yaml"
+            "config/packages/test/validator.yaml",
+            "config/packages/validator.yaml"
         ]
     },
     "symfony/var-dumper": {
@@ -485,9 +485,9 @@
             "ref": "6bdfa1a95f6b2e677ab985cd1af2eae35d62e0f6"
         },
         "files": [
-            "./config/packages/dev/web_profiler.yaml",
-            "./config/packages/test/web_profiler.yaml",
-            "./config/routes/dev/web_profiler.yaml"
+            "config/packages/dev/web_profiler.yaml",
+            "config/packages/test/web_profiler.yaml",
+            "config/routes/dev/web_profiler.yaml"
         ]
     },
     "symfony/web-server-bundle": {
